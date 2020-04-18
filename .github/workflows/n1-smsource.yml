@@ -59,7 +59,7 @@ jobs:
         git clone https://github.com/coolsnowwolf/lede lede
         cd lede
         sed -i '5s/#src-git/src-git/g' feeds.conf.default
-        sed -i '$a\src-git lienol https://github.com/smsource/lienol-openwrt-package' feeds.conf.default
+        sed -i '$a\src-git lienol https://github.com/fzsource/lienol-openwrt-package' feeds.conf.default
 
     - name: Update feeds
       run: cd lede && ./scripts/feeds update -a
