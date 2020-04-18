@@ -58,7 +58,7 @@ jobs:
         
     - name: Clone passwall code
       run: |
-        cd lede/package &&  git clone https://github.com/smsource/lienol-openwrt-package.git
+        cd lede/package &&  git clone https://github.com/fzsource/lienol-openwrt-package.git
         
         
         
